@@ -1,0 +1,1807 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*HEADER CSS */
+
+.header {
+    background: linear-gradient(#0f0f0f, #2b292a);
+    box-shadow: 0px 0px 10px 1px;    
+    align-items: center;
+
+
+}
+
+
+.header-flex{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.menu_bar {
+    display: none;
+
+}
+
+.banner {
+    width: 90%;
+    height: 90%;
+}
+
+.banner:hover {
+    transform: scale(1.04);
+}
+
+/*MEDIA TOPNAV*/
+
+.topnav {
+    background-color: #2b292a;
+    overflow: hidden;
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 50px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.topnav a:hover {
+    background-color: #2b292a;
+    color: rgb(15, 175, 0);
+}
+
+.topnav a.active {
+    background-color: #b63c9c;
+    color: #2b292a;
+    display: none;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+/*END MEDIA TOPNAV*/
+
+
+
+.botoninicio {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#fc1992, #38001c);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 38px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 10px 10x 1px #060706;
+}
+
+
+.botoninicio:hover {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#38001c,#fc1992);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    box-shadow: 0px 10px 10x 1px #060706;
+}
+
+/*END CSS HEADER*/
+
+
+/*START BODY CSS*/
+
+.body {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff459c), to(#6d0037));
+    background-repeat: unset;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.divmain {
+    padding-top: 5px;
+}
+
+
+main {
+    background: linear-gradient(#f08dc2, #ffc8e4);
+    margin-left: 19px;
+    margin-right: 19px;
+    box-shadow: 0px 10px 10px 1px #060706;
+}
+
+.align-center{
+    justify-content: center;
+}
+
+
+.imagenespub {
+    background: linear-gradient(#d8ff9a,#ff5689);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.instagram-widget {
+    display: none;
+}
+
+.imagenmain {
+    width: 90%;
+    height: 90%;
+}
+
+.oshkosh, .carters, .disney {
+    width: 30%;
+    height: 20%;
+}
+.avent {
+    width: 30%;
+    height: 20%;
+}
+
+
+/*END BODY CSS*/
+
+
+/*START FOOTER CSS*/
+
+
+
+
+.lista1 {
+    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: rgb(101, 255, 12);
+    text-shadow: 1px 1px 2px #060706;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding-left: 10px;
+    padding-right: 1px;
+
+}
+
+.flexfooter {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flexfooter2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexfooter3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 30px;
+    align-items: left;
+}
+
+.flexfooter4 {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    align-items: left;
+
+}
+
+.flexfooter6 {
+    padding-top: 10px;
+}
+
+.buttonsearch {
+    width: 60px;
+    height: 35px;
+    background: linear-gradient(#e962a6, to #3a021c);
+}
+
+.navsearch {
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    border-color: #5c0728;
+
+}
+
+#lista2-media {
+    display: none;
+}
+
+.lista2 {
+    text-align: justify;
+    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(114, 255, 33);
+    font-size: 12px;
+    text-shadow: 1px 1px 2px #060706;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding-left: 5px;
+    padding-right: 1px;
+    align-items: right;
+
+}
+
+.lista2:hover {
+    text-align: justify;
+    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(207, 255, 180);
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #060706;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    padding-left: 5px;
+    padding-right: 1px;
+    align-items: right;
+
+}
+
+.redes {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    display: flex;
+    justify-content: left;
+}
+
+/* derechos de autor footer*/
+
+.derechos {
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(21, 56, 0);
+}
+
+
+
+.footer{
+    background: linear-gradient(#fc449a,#ffb3dd);
+    border-top: 1px solid #96056a;
+    box-shadow: 0px 1px 10px 1px #060706;
+
+}
+
+
+
+
+
+
+/* formulario de busqueda */
+
+.form-inline {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.searchbar {
+    background-color: #cdff7d;
+    box-shadow: 3px 1px 5px 1px #f77599;
+    border: 2px #92ff88;
+
+}
+
+.searchboton {
+    border-radius: 4px;
+    padding: 3px;
+    background: linear-gradient(#ff009d,#ff86b0);
+    border: 1px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+}
+
+.searchboton:hover {
+    border-radius: 4px;
+    padding: 3px;
+    background: linear-gradient(#ff86b0#ff009d);
+    border: 1px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px; 
+}
+
+/* END FORMULARIO DE BUSQUEDA*/
+
+.facebook {
+    width: 50px;
+    height: 40px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 40px;
+}
+
+.instagram {
+    width: 50px;
+    height: 40px;
+}
+
+.facebook:hover {
+    transform: scale(1.5);
+}
+
+.whatsapp:hover {
+    transform: scale(1.5);
+}
+
+.instagram:hover {
+    transform: scale(1.5);
+}
+
+
+
+/*END FOOTER CSS*/
+
+
+/* PAGE SUCURUSALES */
+
+
+/*PADDING MAPS SUCURSALES*/
+.sucursalframe {
+    align-items: center;
+    padding: 5%;
+}
+
+.medida-maps {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+.fontnewsl {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #5e0024;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.parrafolista {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    text-align: right;
+    color: #060706;
+}
+
+
+.direccionsuc {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+}
+
+/*END SUCURSALES*/
+
+
+
+/*FORMULARIOS DE REGISTRO, FUENTES, BOTONES REGISTRO, DETALLES AREA MI CUENTA*/
+
+.formulario-center {
+    align-items: center;
+}
+
+.formulariomicuenta {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 1%;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+    align-items: center;
+
+}
+
+.micuenta-padding {
+    align-content: center;
+    padding: 10%;
+}
+
+.formulario-micuenta-reg {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 1%;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+    align-items: center;
+
+}
+
+
+.botonregistro {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#fc1992, #38001c);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid #240314;
+    border-top: 2px solid #240314;
+    border-left: 2px solid #240314;
+    border-right: 2px #240314;
+    border-radius: 38px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+
+}
+
+
+.botonregistro:hover {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#38001c,#fc1992);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid #240314;
+    border-top: 2px solid #240314;
+    border-left: 2px solid #240314;
+    border-right: 2px #240314;
+    border-radius: 38px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.registroboton {
+    margin-top: 10px;
+
+} 
+
+a:link {
+    color: #03dd19;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #03dd19;
+}
+
+/*END FORMULARIOS AREA MI CUENTA*/
+
+/*AREA DE CONTACTO */
+
+.formulariocontacto {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+
+}
+
+
+.formulariodiv {
+    align-items: center;
+    padding: 10%;
+}
+
+.labelcontacto {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+}
+
+.button {
+    padding-left: 154px;
+    padding-top: 20px;
+}
+
+.mensajeform {
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+}
+
+/*END FORMULARIO CONTACTO*/
+
+
+/*NAVEGADOR EN GRID, PARTE DE PRODUCTOS*/
+
+
+section#productos {
+    grid-area: productos;
+    background-color: #ff9ac6;
+    padding: 0%;
+}
+
+#nav {
+    grid-area: nav;
+    background: linear-gradient(#ff6ca0, #8f2563);
+    margin: 0%;
+    padding: 0%;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos";
+    margin-bottom: 10px;
+    grid-template-columns: 10fr 40fr;
+}
+
+
+/*CARD PRODUCTOS*/
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 8%;
+    height: 1000px;
+    align-content: space-between;
+    padding: 0%;
+}
+
+.card{
+    width: 300%;
+    height: 36%;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #ffa2c16d;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 100%;
+    height: 60%;
+}
+
+
+.container .card h4{
+    font-weight: 1000;
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgba(94, 255, 0, 0.659);
+    color: #ff0f7f;
+
+}
+
+.container .card p{
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    background-color: #e962a6;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #960046;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.numberpage-style {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    background-color: #771243aa;
+}
+
+
+/*END CARD PRODUCTOS*/
+
+.fontnav {
+    padding: 3px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.fontnav:hover {
+    padding: 3px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    text-align: left;
+    color: #fdbad4;
+    
+
+}
+
+.fontcategorias {
+    padding-top: 4px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    text-align: center;
+    color: #5c0728;
+}
+
+.fontcategorias2 {
+    padding-top: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    text-align: center;
+    color: #5c0728;
+}
+
+.fontcategorias3 {
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    text-align: center;
+    color: #ffc1d8;
+    align-items: center;
+}
+
+
+.tamaño-img {
+
+    width: 100%;
+    height: 20%;
+}
+
+
+.tamaño-img-2 {
+
+    width: 30%;
+    height: 10%;
+}
+
+.tamaño-img-3 {
+
+    width: 30%;
+    height: 10%;
+}
+
+/*END NAVEGADOR PRODUCTOS*/
+
+
+/*PRUEBA DE ANIMACIONES INDEX*/
+
+.divcuadro {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: mi-cuadro;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes mi-cuadro{
+        0% {width: 100px; background-color: #52032a;}
+        15% {width: 300px; background-color: #740c40;}
+        25% {width: 600px; background-color: #ff0d96;}
+        50% {width: 800px; background-color: rgb(255, 159, 204);}
+        75% {width: 1200px; background-color: #ffb4d9;}
+        100% {width: 1300px; background-color:rgb(225, 225, 225)}
+}
+
+/* MEDIA PUNTOS DE QUIEBRE  */
+
+
+/* PUNTOS DE QUIEBRE TABLETS */
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    
+    .banner {
+        align-items: center;
+        width: 90%;
+        height: 90%;
+    }    
+    
+    #headmedia {
+        grid-area: banner;
+    }
+    .header-flex{ 
+        display: grid;
+        
+    }
+
+    .menu_bar {
+        display: none;
+    }
+
+    #headermediaquery {
+        display: grid;
+        grid-template-areas:
+        "banner banner banner banner banner"     
+        ;
+    }
+
+    .mediaflex1  {
+        margin-bottom: 20px;
+    }
+
+    .botoninicio {
+        width: 30px;
+        height: 23px;
+        background: linear-gradient(#fc1992, #38001c);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 13px;    
+        padding-top: 3px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 38px;
+        margin-top: 6px;
+        margin-left: 5px;
+        margin-bottom: 6px;
+        box-shadow: 0px 10px 10x 1px #060706;
+    }
+    
+    
+    .botoninicio:hover {
+        width: 40px;
+        height: 12px;
+        background: linear-gradient(#38001c,#fc1992);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 13px;    
+        padding-top: 3px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 10px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        box-shadow: 0px 10px 10x 1px #060706;
+    }
+    .oshkosh, .carters, .disney {
+        width: 30%;
+        height: 20%;
+    }
+    .avent {
+        width: 30%;
+        height: 20%;
+    }
+
+
+    .imagenmain {
+        width: 90%;
+        height: 90%;
+    }
+    
+    .instagram-widget {
+        display: none;
+    }
+
+
+
+
+.formulario-center {
+    align-items: center;
+}
+
+.formulariomicuenta {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 2%;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+    align-items: center;
+
+}
+
+.formulario-micuenta-reg {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 2%;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+    align-items: center;
+
+}
+
+
+.botonregistro {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#fc1992, #38001c);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid #240314;
+    border-top: 2px solid #240314;
+    border-left: 2px solid #240314;
+    border-right: 2px #240314;
+    border-radius: 38px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+
+}
+
+
+.botonregistro:hover {
+    width: 95px;
+    height: 23px;
+    background: linear-gradient(#38001c,#fc1992);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid #240314;
+    border-top: 2px solid #240314;
+    border-left: 2px solid #240314;
+    border-right: 2px #240314;
+    border-radius: 38px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.registroboton {
+    margin-top: 10px;
+
+} 
+
+a:link {
+    color: #03dd19;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #03dd19;
+}
+
+
+/*AREA DE CONTACTO */
+
+.formulariocontacto {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    border: 1px solid #8c004d;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+    box-shadow: 0px 0px 10px 1px #ff3dc5;
+
+}
+
+
+.formulariodiv {
+    align-items: center;
+    padding: 10%;
+}
+
+.labelcontacto {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+}
+
+.button {
+    padding-left: 154px;
+    padding-top: 20px;
+}
+
+.mensajeform {
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+}
+
+#lista2-media {
+    display: none;
+}
+
+
+/*NAVEGADOR EN GRID*/
+
+
+
+
+section#productos {
+    grid-area: productos;
+    background-color: #ff9ac6;
+    padding: 0%;
+}
+
+#nav {
+    grid-area: nav;
+    background: linear-gradient(#ff6ca0, #8f2563);
+    margin: 0%;
+    padding: 0%;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos"
+    "nav productos";
+    margin-bottom: 10px;
+    grid-template-columns: 10fr 40fr;
+}
+
+
+/*CARD PRODUCTOS*/
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 8%;
+    height: 1000px;
+    align-content: space-between;
+    padding: 0%;
+}
+
+.card{
+    width: 290%;
+    height: 40%;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 100%;
+    height: 60%;
+}
+
+.sucursalframe {
+    align-items: center;
+    padding: 5%;
+}
+
+.medida-maps {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+}
+
+
+
+/* PUNTOS DE QUIEBRE TELEFON */
+
+@media screen and (max-width: 767px) {
+
+    .header {
+        background: linear-gradient(#0f0f0f, #2b292a);
+        box-shadow: 0px 0px 10px 1px;   
+        background-size: 100%;
+    
+    }
+    
+    
+    .header-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: unset;
+        
+    
+    }
+
+
+    .banner {
+        align-items: center;
+        width: 90%;
+        height: 90%;
+    }    
+
+    .topnav {
+        display: block;
+    }
+    .topnav.icon {
+        display: block;
+    }
+
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    
+    .imagenmain {
+        width: 90%;
+        height: 90%;
+    }
+
+    .instagram-widget {
+        display: unset;
+    }
+
+    .botoninicio {
+        display: none;
+        width: 20px;
+        height: 10px;
+        background: linear-gradient(#fc1992, #38001c);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;    
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 38px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        box-shadow: 0px 10px 10x 1px #060706;
+    }
+    
+    
+    .botoninicio:hover {
+        width: 95px;
+        height: 23px;
+        background: linear-gradient(#38001c,#fc1992);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;    
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 10px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        box-shadow: 0px 10px 10x 1px #060706;
+    }
+    
+    /*END CSS HEADER*/
+    
+    
+    /*START BODY CSS*/
+    
+    .body {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff459c), to(#6d0037));
+        background-repeat: unset;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .divmain {
+        padding-top: 5px;
+    }
+    
+    
+    main {
+        background: linear-gradient(#f08dc2, #ffc8e4);
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 0px 10px 10px 1px #060706;
+        height: 100%;
+    
+    }
+    
+    
+    
+    .imagenespub {
+        background: linear-gradient(#d8ff9a,#ff5689);
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    
+    /*END BODY CSS*/
+    
+    
+    /*START FOOTER CSS*/
+    
+    
+    .fontnewsl {
+        display: none;
+    }
+    .lista1 {
+        font-style: normal;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        color: rgb(101, 255, 12);
+        text-shadow: 1px 1px 2px #060706;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    
+    .flexfooter {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .flexfooter2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .flexfooter3 {
+        display: none;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    
+    .flexfooter4 {
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 20px;
+    
+    }
+    
+    .flexfooter6 {
+        padding-top: 1px;
+    }
+    
+    .buttonsearch {
+        width: 60px;
+        height: 35px;
+        background: linear-gradient(#e962a6, to #3a021c);
+    }
+    
+    .navsearch {
+        width: 120px;
+        height: 35px;
+        align-items: center;
+        border-color: #5c0728;
+    
+    }
+    
+    #lista2-media {
+        display: unset;
+    }
+    
+    .lista2 {
+        text-align: justify;
+        font-style: normal;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(114, 255, 33);
+        font-size: 10px;
+        text-shadow: 1px 1px 2px #060706;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    
+    .lista2:hover {
+        text-align: justify;
+        font-style: normal;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(207, 255, 180);
+        font-size: 10px;
+        text-shadow: 1px 1px 2px #060706;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    
+    .redes {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        display: flex;
+    }
+    
+    /* formulario de busqueda */
+    
+    .form-inline {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    
+    .searchbar {
+        display: none;
+        background-color: #cdff7d;
+        box-shadow: 3px 1px 5px 1px #f77599;
+        border: 2px #92ff88;
+        width: 100%;
+    
+    }
+    
+    .searchboton {
+        display: none;
+        border-radius: 4px;
+        padding: 3px;
+        background: linear-gradient(#ff009d,#ff86b0);
+        border: 1px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 8px; 
+    }
+    
+    .searchboton:hover {
+        border-radius: 4px;
+        padding: 3px;
+        background: linear-gradient(#ff86b0#ff009d);
+        border: 1px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px; 
+    }
+    
+    
+    .parrafolista {
+        display: none;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: right;
+        color: #060706;
+    }
+    
+    
+
+    
+    .derechos {
+        font-size: 12px;
+        text-align: center;
+        font-style: normal;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(21, 56, 0);
+    }
+    
+    
+    
+    .footer{
+        background: linear-gradient(#fc449a,#ffb3dd);
+        border-top: 1px solid #96056a;
+        box-shadow: 0px 1px 10px 1px #060706;
+    
+    }
+    
+    
+    
+    .botonregistro {
+        width: 95px;
+        height: 23px;
+        background: linear-gradient(#fc1992, #38001c);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;    
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 2px solid #240314;
+        border-top: 2px solid #240314;
+        border-left: 2px solid #240314;
+        border-right: 2px #240314;
+        border-radius: 38px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    
+    }
+    
+    
+    .botonregistro:hover {
+        width: 95px;
+        height: 23px;
+        background: linear-gradient(#38001c,#fc1992);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 15px;    
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 2px solid #240314;
+        border-top: 2px solid #240314;
+        border-left: 2px solid #240314;
+        border-right: 2px #240314;
+        border-radius: 38px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    
+    .registroboton {
+        margin-top: 10px;
+    
+    } 
+    
+    a:link {
+        color: #03dd19;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #03dd19;
+    }
+    
+
+    .facebook {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .whatsapp {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .instagram {
+        width: 40px;
+        height: 30px;
+    }
+    /*END FOOTER CSS*/
+    
+    /*PADDING MAPS SUCURSALES*/
+    .sucursalframe {
+        align-items: center;
+        padding: 5%;
+    }
+    
+    .medida-maps {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    .direccionsuc {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    text-align: center;
+    color: #060706;
+}
+
+
+
+    
+    /*FORMULARIOS DE REGISTRO, FUENTES, BOTONES REGISTRO, DETALLES AREA MI CUENTA*/
+    .formulario-center {
+        align-items: center;
+    }
+    
+    .formulariomicuenta {
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+        border: 1px solid #8c004d;
+        border-radius: 1em;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: center;
+        color: #060706;
+        box-shadow: 0px 0px 10px 1px #ff3dc5;
+        align-items: center;
+    
+    }
+    
+    .formulario-micuenta-reg {
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+        border: 1px solid #8c004d;
+        border-radius: 1em;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: center;
+        color: #060706;
+        box-shadow: 0px 0px 10px 1px #ff3dc5;
+        align-items: center;
+    
+    }
+    
+    
+    .botonregistro {
+        width: 20%;
+        height: 50%;
+        background: linear-gradient(#fc1992, #38001c);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;    
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 2px solid #240314;
+        border-top: 2px solid #240314;
+        border-left: 2px solid #240314;
+        border-right: 2px #240314;
+        border-radius: 38px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    
+    }
+    
+    
+    .botonregistro:hover {
+        width: 20%;
+        height: 50%;
+        background: linear-gradient(#38001c,#fc1992);
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;    
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 2px solid #240314;
+        border-top: 2px solid #240314;
+        border-left: 2px solid #240314;
+        border-right: 2px #240314;
+        border-radius: 38px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    
+    .registroboton {
+        margin-top: 10px;
+    
+    } 
+    
+    a:link {
+        color: #03dd19;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #03dd19;
+    }
+    
+    
+    /*AREA DE CONTACTO */
+    
+    .formulariocontacto {
+        width: 90%;
+        padding: 5%;
+        border: 1px solid #8c004d;
+        border-radius: 1em;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: center;
+        color: #060706;
+        box-shadow: 0px 0px 10px 1px #ff3dc5;
+    
+    }
+    
+    
+    .formulariodiv {
+        align-items: center;
+        padding: 5%;
+    }
+    
+    .labelcontacto {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    textarea {
+        vertical-align: top;
+        height: 200px;
+    }
+    
+    .button {
+        padding-left: 154px;
+        padding-top: 20px;
+    }
+    
+    .mensajeform {
+        padding-top: 20px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: center;
+        color: #060706;
+    }
+    
+    
+    /*NAVEGADOR EN GRID, PARTE DE PRODUCTOS*/
+    
+
+
+    section#productos {
+        grid-area: productos;
+        background-color: #ff9ac6;
+        padding: 0%;
+    }
+    
+    #nav {
+        grid-area: nav;
+        background: linear-gradient(#ff6ca0, #8f2563);
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "nav productos"
+        "nav productos"
+        "nav productos"
+        "nav productos"
+        "nav productos"
+        "nav productos";
+        margin-bottom: 10px;
+        grid-template-columns: 10fr 40fr;
+    }
+    
+    
+    /*CARD PRODUCTOS*/
+    
+    .container{
+    
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 10%;
+        height: 3000px;
+        align-content: space-between;
+        padding: 0%;
+    }
+    
+    .card{
+        width: 920%;
+        height: 200%;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 5px;
+        text-align: center;
+        transition: all 0.25s;
+    }
+    
+    .container .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .container .card img{
+        width: 100%;
+        height: 70%;
+    }
+    
+    
+    
+    
+    /*END CARD PRODUCTOS*/
+    
+    .fontnav {
+        padding: 3px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 5px;
+    }
+    
+    .fontnav:hover {
+        padding: 3px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 13px;
+        text-align: left;
+        color: #fdbad4;
+        
+    
+    }
+    
+    .fontcategorias {
+        padding-top: 4px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: center;
+        color: #5c0728;
+    }
+    
+    .fontcategorias2 {
+        padding-top: 15px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: center;
+        color: #5c0728;
+    }
+    
+    .fontcategorias3 {
+        padding-top: 20px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 10px;
+        text-align: center;
+        color: #ffc1d8;
+        align-items: center;
+    }
+    
+    
+    .tamaño-img {
+    
+        width: 100%;
+        height: 20%;
+    }
+    
+    
+    .tamaño-img-2 {
+    
+        width: 30%;
+        height: 10%;
+    }
+    
+    .tamaño-img-3 {
+    
+        width: 30%;
+        height: 10%;
+    }
+    
+    /*EDICION DE BOOTSTRAP*/
+    
+    
+    /*PRUEBA DE ANIMACIONES INDEX*/
+    
+    .divcuadro {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: mi-cuadro;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+        animation-delay: 0s;
+    }
+
+
+}
